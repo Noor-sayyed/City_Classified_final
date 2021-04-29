@@ -1,0 +1,325 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+		align: center;}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+button {
+  
+  color: white;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+button {
+
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container{
+	text-align: center;
+    align-content: center;
+    padding-top: 10%;
+    
+    
+}
+.card-body{
+	padding: 0;
+	height:10px;
+	
+}
+.zoom:hover{
+	transform: scale(1.05);
+
+}
+table {
+  padding-top: 50px;
+  border-collapse: separate!important;
+}
+
+
+
+td {                                          /*****************************/
+    padding: 10px;                            /*****************************/
+    text-align: center;                       /**** JUST THE CSS STYLES ****/
+    border-left: 1px #575757 solid;           /****    NOT IMPORTANT    ****/
+    border-right: 1px #575757 solid;          /*****************************/
+}                                             /*****************************/
+                                              /****       OPTIONAL      ****/
+                                              /****************************/
+                                              
+h2 {
+	padding: 5px;
+}
+label{
+	float: left;
+}
+.padCenter {
+/* 	padding-left: 30%; */
+/*  padding-right: 30%; */
+	text-align: center;
+	border: 1px solid black;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+/* 	border-top-width: 10px; */
+/* 	border-left-width: 10px; */
+/* 	border-right-width:10px; */
+/* 	border-bottom-width: 10px; */
+}
+.borderDiv{
+	 	padding-left: 30%; 
+	    padding-right: 30%;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+		
+		}
+/* form {border: 3px solid #f1f1f1;} */
+
+input[type=text], input[type=password] , input[type=button] ,input[type=submit] {
+	
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+ input[type=button],input[type=submit]{
+	background-color:black ;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+/*  background-image: url("images/list2.jpg");
+ */
+ /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+#cityId {
+    padding: 5px;
+    color: #000;
+    font-size: 12px;
+    background: white;
+    -webkit-appearance: none;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#categoryId {
+    padding: 5px;
+    color: #000;
+    font-size: 12px;
+    background: white;
+    -webkit-appearance: none;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.row {margin: 1 20px;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card {
+    float: left;
+    width: 100%;
+    padding: .75rem;
+    height:40vh;
+    margin-bottom: 2rem;
+    border: 0;
+    
+ }
+
+.card > img {
+    margin-bottom: .75rem;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;  
+    margin-right: auto;
+}
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.card-img-top1{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+ .container:hover .card-img-top2 {
+  opacity: 0.3;
+}
+
+.card-img-top1{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+ .container:hover .card-img-top2 {
+  opacity: 0.3;
+}
+
+.card-img-top1{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+ .container:hover .card-img-top2 {
+  opacity: 0.3;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  
+/*   animated */
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
